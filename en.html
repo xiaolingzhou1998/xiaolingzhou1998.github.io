@@ -1,0 +1,611 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="Author" content="Xiaoling Zhou, 周晓玲" />
+		<meta name="description" content="Xiaoling Zhou, Homepage, 周晓玲,北京大学,软件与微电子学院,深度学习,自然语言处理,机器学习">
+		<meta name="keywords" content="Xiaoling Zhou, 周晓玲,北京大学,软件与微电子学院,深度学习,自然语言处理,机器学习">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="my.css" type="text/css" />
+		<title>Xiaoling Zhou</title>
+
+
+
+
+
+
+		<style type="text/css">
+			div.noshow { display: none;}
+		</style>
+		<script type="text/javascript">
+			<!--
+			function toggleInfo(articleid,info) {
+
+				var entry = document.getElementById(articleid);
+				var abs = document.getElementById('abs_'+articleid);
+				var rev = document.getElementById('rev_'+articleid);
+				var bib = document.getElementById('bib_'+articleid);
+
+				if (abs && info == 'abstract') {
+					if(abs.className.indexOf('abstract') != -1) {
+						abs.className.indexOf('noshow') == -1?abs.className = 'abstract noshow':abs.className = 'abstract';
+					}
+				} else if (rev && info == 'review') {
+					if(rev.className.indexOf('review') != -1) {
+						rev.className.indexOf('noshow') == -1?rev.className = 'review noshow':rev.className = 'review';
+					}
+				} else if (bib && info == 'bibtex') {
+					if(bib.className.indexOf('bibtex') != -1) {
+						bib.className.indexOf('noshow') == -1?bib.className = 'bibtex noshow':bib.className = 'bibtex';
+					}
+				} else {
+					return;
+				}
+
+				// check if one or the other is available
+				var revshow = false;
+				var absshow = false;
+				var bibshow = false;
+				(abs && abs.className.indexOf('noshow') == -1)? absshow = true: absshow = false;
+				(rev && rev.className.indexOf('noshow') == -1)? revshow = true: revshow = false;
+				(bib && bib.className == 'bibtex')? bibshow = true: bibshow = false;
+
+				// highlight original entry
+				if(entry) {
+					if (revshow || absshow || bibshow) {
+						entry.className = 'entry highlight show';
+					} else {
+						entry.className = 'entry show';
+					}
+				}
+
+				// When there's a combination of abstract/review/bibtex showing, need to add class for correct styling
+				if(absshow) {
+					(revshow||bibshow)?abs.className = 'abstract nextshow':abs.className = 'abstract';
+				}
+				if (revshow) {
+					bibshow?rev.className = 'review nextshow': rev.className = 'review';
+				}
+
+			}
+
+			function showAll(){
+				// first close all abstracts, reviews, etc.
+				closeAllInfo();
+
+				for (var i = 0; i < numEntries; i++){
+					entryRows[i].className = 'entry show';
+				}
+			}
+
+			function closeAllInfo(){
+				for (var i=0; i < numInfo; i++){
+					if (infoRows[i].className.indexOf('noshow') ==-1) {
+						infoRows[i].className = infoRows[i].className + ' noshow';
+					}
+				}
+			}
+
+
+			-->
+		</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</head>	
+	<body>  
+		<div id="pagecell1">
+			<!--pagecell1-->
+			<div id="top">
+				
+				<h1><a href="en.html">Xiaoling Zhou</a></h1>
+                PhD Student, Peking University, Artificial Intelligence
+
+				
+				<div id="top-right">
+					<a href="index.html"> Home </a>  | <a href="#publicationss">Publications</a> | <a href="#awardss">Awards</a> | <a href="#honorss">Honors</a>  | <a href="#projectss"> Projects </a>  | <a href="#acss"> Academic Services </a>  | <a href="index.html"> 中文 </a>
+
+				</div>
+			</div>
+			
+			<div id="left">
+				<img src="./picture/xlzhou.jpg" alt="" /><!--width="285" height="325" /-->
+				<p>&nbsp;</p>
+				<div>
+					<h2>Link</h2>
+						<p ><a href="mailto:xiaolingzhou@stu.pku.edu.cn" target="_blank"><i class="icon-share-alternitive"></i> Email</a></p>
+						<!-- <p ><a href="http://github.com/xiaolingzhou1998" target="_blank"><i class="icon-github"></i> Github</a></p> -->
+					    <!-- <p><a href="" target="_blank"><i class="icon-android"></i> QQ (349386795)</a></p> -->
+					    <p ><a href="https://scholar.google.com/citations?user=RqBrDxcAAAAJ&hl=zh-CN&oi=ao" target="_blank"><i class="icon-chrome"></i> Google Scholar</a></p>
+<!--						<p ><a href="https://www.zhihu.com/people/xpqiu" target="_blank"><i class="icon-zhihu-square"></i> 知乎</a></p>-->
+						<h2>Contact</h2>
+						<p class="list1" >School of Software and Microelectronics, Peking University, No. 5 Yiheyuan Road, Beijing, China</p>
+
+					</div>
+			</div>
+
+			<div id="content">
+				
+				<div class="feature"> 
+					<h2>About Me</h2>
+					<div class="story">
+					<p style="text-align: justify">&emsp;Hello! I am Xiaoling Zhou, currently pursuing a Ph.D. degree from September 2023 onwards at the National Engineering Research Center for Software Engineering, Peking University, Beijing, China. I am under the supervision of Professors Shikun Zhang and <a href="https://se.pku.edu.cn/kcl/weiye/"><strong>Wei Ye</strong></a>. My research interests encompass a diverse range of topics, including representation learning, adversarial training, meta-learning, imbalance learning, and causal machine learning.
+						</p>
+
+					<!-- <p>&emsp;I have participated in many subject competitions and won awards. Including 5 national awards such as the first prize in the Mathematical Contest In Modeling, and more than 10 provincial awards such as the special prize in the Physics Contest
+						for College Students in Tianjin. I presided over the completion of a national college student innovation project and applied for a software copyright A utility model patent and an invention patent.</p> -->
+
+					<p style="text-align: justify">&emsp;For additional information, please feel free to reach out to me via <a href="mailto:xiaolingzhou@stu.pku.edu.cn"><strong>email</strong></a>:)</p>
+  					
+					<!-- <h2>Research Interests</h2>
+						<p>Deep Learning, Natural Language Processing, Sample Weighting Strategy, Perturbation Adversarial Training, Causal Analysis.</p> -->
+						<h2>Updates</h2>
+						<ol>
+							<div style="height:140px;overflow:auto;">
+									<table>
+										<col width="100px">
+										<!-- <tr>
+											<td><b>Jan 2023:</b></td>
+											<td>参加并通过北京大学软件与微电子学院博士考核！</td>
+										</tr> -->
+										<tr>
+											<td><b>2023/06:</b></td>
+											<td>Received the Outstanding Graduate Award from Tianjin University.</td>
+										</tr>
+										<tr>
+											<td><b>2023/06:</b></td>
+											<td>Honored with the Excellent Master's Thesis Award by Tianjin University.</td>
+										</tr>
+										<tr>
+											<td><b>2023/06:</b></td>
+											<td>Published the paper "Which Samples Should be Learned First, Easy or Hard?" in IEEE Transactions on Neural Networks and Learning Systems (CCF-B).</td>
+										</tr>
+										<tr>
+											<td><b>2022/11:</b></td>
+											<td>Published the paper "Combining Adversaries with Anti-adversaries in Training" as an Oral paper at AAAI 2023 (CCF-A).</td>
+										</tr>
+
+										<tr>
+											<td><b>2022/10:</b></td>
+											<td>Awarded the National Scholarship for Undergraduate Students.</td>
+										</tr>
+
+									</table>
+								</div>
+							</ol>
+
+					<!-- <h2>Updates</h2>
+						<p>
+							<li>2023/06&emsp;|&emsp;Awarded the Outstanding Graduate of Tianjin University.</li>
+							<li>2023/06&emsp;|&emsp;Awarded the Excellent Master's Thesis from Tianjin University.</li>
+							<li>2023/06&emsp;|&emsp;Paper "Which Samples Should be Learned First, Easy or Hard?" was published in IEEE Transactions on Neural Networks and Learning Systems (CCF-B).</li>
+							<li>2022/11&emsp;|&emsp;Paper "Combining Adversaries with Anti-adversaries in Training" was published in AAAI2023 Oral paper (CCF-A).</li>
+							<li>2019/10&emsp;|&emsp;Awarded the National Scholarship for Undergraduate Students.</li>
+						</p> -->
+
+					<h2>Education</h2>
+					<div class="story">
+					<p>
+					  &emsp;2023/09&nbsp;-&nbsp;present &emsp;&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">Peking University</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Electronic Information<br>
+					  &emsp;2020/09&nbsp;-&nbsp;2023/06&nbsp;&emsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">Tianjin University</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mathematics<br>
+					  <!-- &emsp;2016/09-2020/06&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">Tiangong University</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data Mining.<br> -->
+					</p>
+
+
+
+
+
+
+        <div id = "publicationss"><h2>Publications</h2></div>
+        <ol>
+
+            <li id="xiao2023com" class="entry">
+                <strong><font color="#0071BF">Combining Adversaries with Anti-adversaries in Training</font></strong>,
+                <strong><font color="#ff6666"> AAAI</font></strong>, 2023, <strong><font color="#9045DC"> CCF Rank A, Full Paper (oral)</font></strong>.
+                <a href="javascript:toggleInfo('xiao2023com','bibtex')">[BibTeX]</a><a href="https://arxiv.org/abs/2304.12550">[PDF]</a>
+                <a href="javascript:toggleInfo('xiao2023coms','abstract')">[Abstract]</a>
+            <div class="author"><strong>Xiaoling Zhou</strong>, Nan Yang, and Ou Wu*.</div>
+
+            </li>
+            <div id="bib_xiao2023com" class="bibtex noshow">
+            <b>BibTeX</b>:
+            <pre>
+            @inproceedings{xiao2023com,
+              author = {Xiaoling Zhou, Nan Yang, and Ou Wu.},
+              title = {Combining Adversaries with Anti-adversaries in Training},
+              booktitle = {AAAI 2023},
+              year = {2023},
+              pages = {1--8},
+              url = {arXiv preprint arXiv:XXX}
+            }
+            </pre>
+            </div>
+            <div id="abs_xiao2023coms" style="text-align:justify; text-justify:inter-ideograph;" class="abstract noshow" >
+                <b>Abstract</b>: Adversarial training is an effective learning technique to improve the robustness of deep neural networks. In this study, the influence of adversarial training on deep learning models in terms of fairness, robustness, and generalization is
+                theoretically investigated under more general perturbation scope that different samples can have different perturbation directions (the adversarial and anti-adversarial directions) and varied perturbation bounds. Our theoretical explorations suggest that
+                the combination of adversaries and anti-adversaries (samples with anti-adversarial perturbations) in training can be more effective in achieving better fairness between classes and a better tradeoff between robustness and generalization in some typical
+                learning scenarios (e.g., noisy label learning and imbalance learning) compared with standard adversarial training. On the basis of our theoretical findings, a more general learning objective that combines adversaries and antiadversaries with varied bounds
+                on each training sample is presented. Meta learning is utilized to optimize the combination weights. Experiments on benchmark datasets under different learning scenarios verify our theoretical findings and the effectiveness of the proposed methodology.
+            </div>
+
+
+
+            <li id="zhou2022which" class="entry">
+                <strong><font color="#0071BF">Which Samples Should Be Learned First, Easy or Hard?</font></strong>,
+                <strong><font color="#ff6666"> TNNLS</font></strong>, 2023, <strong><font color="#9045DC"> CCF Rank B (SCI Q1), IF:10.4</font></strong>.
+                <a href="javascript:toggleInfo('zhou2022which','bibtex')">[BibTeX]</a><a href="https://ieeexplore.ieee.org/document/10155763">[PDF]</a>
+                <a href="javascript:toggleInfo('zhou2022whichs','abstract')">[Abstract]</a>
+            <div class="author"><strong>Xiaoling Zhou</strong>, and Ou Wu*.</div>
+            </li>
+            <div id="bib_zhou2022which" class="bibtex noshow">
+            <b>BibTeX</b>:
+            <pre>
+                @article{zhou2023samples,
+                    title={Which Samples Should Be Learned First: Easy or Hard?},
+                    author={Zhou, Xiaoling and Wu, Ou},
+                    journal={IEEE Transactions on Neural Networks and Learning Systems},
+                    year={2023},
+                    publisher={IEEE}
+                  }
+            </pre>
+
+            </div>
+
+            <div id="abs_zhou2022whichs" style="text-align:justify; text-justify:inter-ideograph;" class="abstract noshow">
+                <b>Abstract</b>: An effective weighting scheme for training samples is essential for learning tasks. Numerous weighting schemes have been proposed. Some schemes take the easy-first mode, whereas some others take the hard-first one. Naturally, an interesting yet realistic question is
+                raised. Which samples should be learned first given a new learning task, easy or hard? To answer this question, both theoretical analyses and experimental verification are conducted. First, a general optimized objective function is proposed, revealing the relationship between the difficulty
+                distribution and the difficulty-based sample weights. Second, on the basis of the optimized objective function, theoretical answers are obtained. Besides the easy-first and hard-first modes, there are two other priority modes, namely, medium-first and two-endsfirst. The prior mode does not
+                necessarily remain unchanged during the training process. Third, an effective and universal solution is proposed to select the optimal priority mode when there is no prior knowledge or theoretical clues. The four modes, namely, easy/medium/hard/two-ends-first, can be flexibly switched in the
+                proposed solution. Fourth, a wide range of experiments is conducted under various scenarios to further compare the weighting schemes in different modes. On the basis of these works, reasonable and comprehensive answers are obtained. Factors including the distribution of samples’ learning
+                difficulties and the validation data determine which samples should be learned first in a learning task.
+            </div>
+
+
+            <li id="implicit" class="entry">
+                <strong><font color="#0071BF">Implicit Counterfactual Data Augmentation for Deep Neural Networks</font></strong>,
+                <strong><font color="#ff6666"> arXiv</font></strong>, 2023.
+                <a href="javascript:toggleInfo('implicit','bibtex')">[BibTeX]</a><a href="https://arxiv.org/abs/2304.13431">[PDF]</a>
+                <a href="javascript:toggleInfo('implicit1','abstract')">[Abstract]</a>
+            <div class="author"><strong>Xiaoling Zhou</strong> and Ou Wu*.</div>
+
+            </li>
+            <div id="implicit" class="bibtex noshow">
+            <b>BibTeX</b>:
+            <pre>
+                @article{zhou2023implicit,
+                    title={Implicit Counterfactual Data Augmentation for Deep Neural Networks},
+                    author={Zhou, Xiaoling and Wu, Ou},
+                    journal={arXiv preprint arXiv:2304.13431},
+                    year={2023}
+                  }
+            </pre>
+            </div>
+            <div id="implicit1" style="text-align:justify; text-justify:inter-ideograph;" class="abstract noshow" >
+                <b>Abstract</b>: Machine-learning models are prone to capturing the spurious correlations between non-causal attributes and classes, with counterfactual data augmentation being a promising direction for breaking these spurious associations. However, explicitly generating counterfactual data is challenging, with the training efficiency declining. Therefore, this study proposes an implicit counterfactual data augmentation (ICDA) method to remove spurious correlations and make stable predictions. Specifically, first, a novel sample-wise augmentation strategy is developed that generates semantically and counterfactually meaningful deep features with distinct augmentation strength for each sample. Second, we derive an easy-to-compute surrogate loss on the augmented feature set when the number of augmented samples becomes infinite. Third, two concrete schemes are proposed, including direct quantification and meta-learning, to derive the key parameters for the robust loss. In addition, ICDA is explained from a regularization aspect, with extensive experiments indicating that our method consistently improves the generalization performance of popular depth networks on multiple typical learning scenarios that require out-of-distribution generalization.
+            </div>
+
+
+            <li id="xiao2022under" class="entry">
+                <strong><font color="#0071BF">Understanding Difficulty-Based Sample Weighting in Deep Learning</font></strong>,
+                <strong><font color="#ff6666"> ECML-PKDD</font></strong>, 2022, <strong><font color="#9045DC"> CCF Rank B, Full Paper (oral)</font></strong>.
+                <a href="javascript:toggleInfo('xiao2022under','bibtex')">[BibTeX]</a><a href="https://arxiv.org/abs/2301.04850">[PDF]</a>
+                <a href="javascript:toggleInfo('xiao2022unders','abstract')">[Abstract]</a>
+            <div class="author"><strong>Xiaoling Zhou</strong>, Ou Wu*, Weiyao Zhu, and Ziyang Liang.</div>
+
+            </li>
+            <div id="bib_xiao2022under" class="bibtex noshow">
+            <b>BibTeX</b>:
+            <pre>
+            @inproceedings{xiao2022under,
+              author = {Xiaoling Zhou, Ou Wu, Weiyao Zhu, and Ziyang Liang.},
+              title = {Understanding Difficulty-Based Sample Weighting in Deep Learning},
+              booktitle = {ECML-PKDD 2022},
+              year = {2022},
+              pages = {1--16},
+              url = {https://arxiv.org/pdf/2301.04850.pdf},
+            }
+            </pre>
+            </div>
+            <div id="abs_xiao2022unders" style="text-align:justify; text-justify:inter-ideograph;" class="abstract noshow" >
+                <b>Abstract</b>: Sample weighting is widely used in deep learning. A large number of weighting methods essentially utilize the learning difficulty of a training sample to calculate its weight. In this study, this scheme is called difficulty-based weighting. Two important issues
+                arise when explaining this scheme. First, a universal difficulty measure that can be theoretically guaranteed for training samples does not exist. The learning difficulties of the samples are determined by multiple factors, including noise level, imbalance degree, margin, and
+                uncertainty. Nevertheless, existing measures only consider a single factor or in part, but not in their entirety. Second, a comprehensive theoretical explanation is lacking with respect to demonstrating why difficulty-based weighting schemes are effective in deep learning. In
+                this study, we theoretically prove that the generalization error of a sample can be used as a universal difficulty measure. Furthermore, we provide formal theoretical justifications on the role of difficulty-based weighting for deep learning, consequently revealing its positive
+                influences on both the optimization dynamics and generalization performance of deep models, which is instructive to a number of weighting schemes under active research.
+            </div>
+
+
+
+
+
+
+            <li id="xiao2021drop" class="entry">
+                <strong><font color="#0071BF">Drop "Noise" Edge: An Approximation of the Bayesian GNNs</font></strong>,
+                <strong><font color="#ff6666"> ACPR</font></strong>, 2022.
+                <a href="javascript:toggleInfo('xiao2021drop','bibtex')">[BibTeX]</a><a href="https://dl.acm.org/doi/10.1007/978-3-031-02444-3_5">[PDF]</a>
+                <a href="javascript:toggleInfo('xiao2021drops','abstract')">[Abstract]</a>
+            <div class="author"><strong>Xiaoling Zhou</strong>, and Ou Wu*.</div>
+
+            </li>
+            <div id="bib_xiao2021drop" class="bibtex noshow">
+            <b>BibTeX</b>:
+            <pre>
+            @inproceedings{xiao2021drop,
+              author = {Xiaoling Zhou, and Ou Wu.},
+              title = {Drop "Noise" Edge: An Approximation of the Bayesian GNNs},
+              booktitle = {Proceedings of the 6th Asian Conference on Pattern Recognition (ACPR 2021)},
+              year = {2021},
+              pages = {59--72},
+              url = {https://dx.doi.org/10.1007/978-3-031-02444-3_5}
+            }
+            </pre>
+            </div>
+            <div id="abs_xiao2021drops" style="text-align:justify; text-justify:inter-ideograph;" class="abstract noshow" >
+                <b>Abstract</b>: Graph neural networks (GNNs) have proven to be powerful tools for graph analysis. The key idea is to recursively propagate and gather information along the edges of a given graph. Although they have been successful, they are still limited by over-smoothing and noise in
+                the graph. Over-smoothing means that the representation of each node will converge to the similar value as the number of layers increases. "Noise" edges refer to edges with no positive effect on graph representation in this study. To solve the above problems, we propose DropNEdge (Drop
+                "Noise" Edge), which filters useless edges based on two indicators, namely, feature gain and signal-to-noise ratio. DropNEdge can alleviate over-smoothing and remove "noise" edges in the graph effectively. It does not require any changes to the network's structure, and it is widely adapted
+                to various GNNs. We also show that the use of DropNEdge in GNNs can be interpreted as an approximation of the Bayesian GNNs. Thus, the models' uncertainty can be obtained.
+            </div>
+
+
+            <li id="Zhou2022in" class="entry">
+                <strong><font color="#0071BF">Increasing Naturalness of Human-machine Dialogue: the Users’ Choices Inference of Options in Machine-raised Questions</font></strong>,
+                 <strong><font color="#ff6666">Knowledge-based Systems</font></strong>, Vol. 243(108485), pp. 1-13, 2022, <strong><font color="#9045DC"> CCF Rank C (SCI Q1), IF:8.038</font></strong>.
+                <a href="javascript:toggleInfo('Zhou2022in','bibtex')">[BibTeX]</a><a href="https://dl.acm.org/doi/abs/10.1016/j.knosys.2022.108485">[PDF]</a>
+                <a href="javascript:toggleInfo('Zhou2022ins','abstract')">[Abstract]</a>
+
+                <div class="author"><strong>Xiaoling Zhou</strong>, Ou Wu*, and Chao Jiang.</div>
+
+            </li>
+            <div id="bib_Zhou2022in" class="bibtex noshow">
+            <b>BibTeX</b>:
+            <pre>
+            @article{Zhou2022in,
+              author = {Xiaoling Zhou, Ou Wu, and Chao Jiang.},
+              title = {Increasing Naturalness of Human-machine Dialogue: the Users’ Choices Inference of Options in Machine-raised Questions},
+              journal = {Knowledge-based Systems},
+              year = {2022},
+              volume = {243},
+              number = {108485},
+              pages = {1--13},
+              url = {https://doi.org/10.1016/j.knosys.2022.108485},
+              doi = {https://doi.org/10.1016/j.knosys.2022.108485}
+            }
+            </pre>
+            </div>
+            <div id="abs_Zhou2022ins" style="text-align:justify; text-justify:inter-ideograph;" class="abstract noshow">
+                <b>Abstract</b>:In many practical applications, the machine needs to actively ask humans to obtain their intents. The process that the machine raises questions and users return answers is called reverse QA, which is an important part of a human–machine dialogue.
+                However, in many dialogue systems, the machine restricts users from answering questions by clicking on option items, which is unnatural and restricted. In addition, this method may lose important information expressed by users. Users should be allowed to answer
+                questions in natural language in a more natural and intelligent dialogue system. To obtain users’ intents, users’ choices of questions’ options must be inferred from their answers. In this paper, we propose an advanced answer understanding network (UCINet) which
+                infers users’ choices of options in machine-raised questions accurately and efficiently according to the users’ answer. Furthermore, metric learning is introduced for the model to learn better text representations. Based on the assumption that texts are determined
+                by both semantics and styles, we propose a stylebased answer generation network (SAGNet) which can generate various answers with different styles for a question. The generated answers are used to achieve data augmentation for UCINet’s training. Experimental results
+                on two reverse QA data sets demonstrate that UCINet achieves impressive results compared to other strong competitors. Using SAGNet for answer generation, we obtain answers with various styles and good quality. Our work can be widely used in intelligent customer
+                service, mobile phone assistants, and other human–machine dialogue systems.
+            </div>
+
+
+
+
+
+
+
+            <li id="rui2020" class="entry">
+                <strong><font color="#0071BF">Inter-subdiscipline Analysis Based on Mathematical Statements</font></strong>,
+                <strong><font color="#ff6666"> JCDL'20</font></strong>, 2020.
+                <a href="javascript:toggleInfo('rui2020','bibtex')">[BibTeX]</a><a href="https://dl.acm.org/doi/abs/10.1145/3383583.3398574">[PDF]</a>
+                <a href="javascript:toggleInfo('rui2020s','abstract')">[Abstract]</a>
+            <div class="author">Rui Wang, <strong>Xiaoling Zhou</strong>, Jian Wu, and Ou Wu*.</div>
+            </li>
+            <div id="bib_rui2020" class="bibtex noshow">
+            <b>BibTeX</b>:
+            <pre>
+            @inproceedings{rui2020,
+              author = {Rui Wang, Xiaoling Zhou, Jian Wu, and Ou Wu.},
+              title = {Inter-subdiscipline Analysis Based on Mathematical Statements},
+              booktitle = {Proceedings of the ACM/IEEE Joint Conference on Digital Libraries in 2020 (JCDL'20)},
+              year = {2020},
+              pages = {483--484},
+              url = {https://doi.org/10.1145/3383583.3398574}
+            }
+            </pre>
+            </div>
+
+            <div id="abs_rui2020s" style="text-align:justify; text-justify:inter-ideograph;" class="abstract noshow">
+                <b>Abstract</b>: A mathematical paper contains various mathematical statements, including definitions, theorems, lemmas, and so on. The mining of mathematical literature currently focuses on formulas and disregards statements. The present study investigates the (automatic) subdiscipline
+                classification for mathematical statements. The classification results are applied into inter-subdiscipline analysis, including proportion and dependency analyses. First, a statement learning data is directly compiled from mathematical textbooks with a little human labeling to train an
+                effective subdiscipline classifier. Second, a relatively large corpus, namely, analysis data, is compiled from mathematical journals. The classification results on the analysis data are subsequently used to quantify the intersubdisciplinary relationships and conduct proportion analysis.
+                Lastly, the dependency of different subdisciplines is analyzed and dependency chains among subdisciplines can be obtained.
+            </div>
+
+
+
+            <!-- <li id="zhou2019" class="entry">
+                <strong><font color="#0071BF">基于效率最大化的RGV动态调度的算法设计与程序验证</font></strong>,
+                <strong><font color="#ff6666"> 中小企业管理与科技</font></strong>, Vol. 2(1), pp. 1-2, 2019.
+                <a href="javascript:toggleInfo('zhou2019','bibtex')">[BibTeX]</a><a href="./pdf/zhou-2019.pdf">[PDF]</a>
+                <a href="javascript:toggleInfo('zhou2019s','abstract')">[Abstract]</a>
+            <div class="author"><strong>周晓玲*</strong>, 李政, 李慧东, 张卓力, 过昱企.</div>
+            </li>
+            <div id="bib_zhou2019" class="bibtex noshow">
+            <b>BibTeX</b>:
+            <pre>
+            @article{zhou2019,
+              author = {周晓玲, 李政, 李慧东, 张卓力, 过昱企.},
+              title = {基于效率最大化的RGV动态调度的算法设计与程序验证},
+              journal = {中小企业管理与科技},
+              year = {2019},
+              volume = {2},
+              number = {1},
+              pages = {1--2},
+              url = {https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7iLik5jEcCI09uHa3oBxtWoLsuiTCUcLAWS5shsd7Sr1wVqJuljXXbGnEnUSmw0ZP5&uniplatform=NZKPT}
+            }
+            </pre>
+            </div>
+
+            <div id="abs_zhou2019s" style="text-align:justify; text-justify:inter-ideograph;" class="abstract noshow">
+                <b>Abstract</b>: 论文旨在研究智能RGV（轨道式导引小车）的动态调度策略，针对具体加工过程中的不同情况分别建立以效率最大化为目标的多目标优化模型和实时动态调度策略模型。针对加工情况为两道工序且可能存在故障的情况建立动态调度规则，运用MATLAB软件对动态调度模型进行求解，得到最优调度方案。利用组内检验和组间检验对模型的实用性和算法的有效性进行
+                了检验并评价了模型的优缺点。最后，针对RGA可提前预测CNC完成情况方面对模型进行了合理有效展望。
+            </div> -->
+
+
+        <li>
+            <strong><font color="#0071BF">一种可解释性的深度学习样本赋权方法</font></strong>,<strong><font color="#ff6666">发明专利</font></strong>.
+            公开号：CN115730651A, 2022.
+            <div class="author">吴偶, <strong>周晓玲</strong>.</div>
+        </li>
+
+        <li>
+            <strong><font color="#0071BF">一种用于实验室的计算机通信设备</font></strong>,<strong><font color="#ff6666">实用新型专利</font></strong>,
+             专利号：ZL 2019 2 0113518.4, 2019.
+            <div class="author">李政, <strong>周晓玲</strong>, 过昱企, 张卓力, 甘伟荣.</div>
+        </li>
+
+        <li>
+            <strong><font color="#0071BF">“爱骑”软件 V1.0</font></strong>,<strong><font color="#ff6666">软件著作权</font></strong>,
+             登记号：2019SR0533606, 2019.
+            <div class="author"><strong>周晓玲</strong>, 王雪娜, 李政斌, 李竣玺, 翟巧灵, 过昱企.</div>
+        </li>
+        </ol>
+
+
+
+
+
+				<div id = "awardss"><h2>Awards</h2></div>
+					<ol>
+						<li>2020/12&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">第十七届“华为杯”中国研究生数学建模竞赛</font>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;国家级 二等奖<br></li>
+						<li>2019/09&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">第十五届挑战杯天津市大学生课外学术科技作品竞赛</font>&emsp;&emsp;&emsp;&emsp;&emsp;天津市 三等奖<br></li>
+						<!-- <li>2019/05&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">天津工业大学第十三届学生课外学术科技作品竞赛</font>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;院校级 二等奖<br></li> -->
+						<li>2019/04&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">美国大学生数学建模竞赛</font>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;国际级 一等奖 (M奖)<br></li>
+						<li>2018/11&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">全国大学生数学竞赛 (天津赛区)</font>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;天津市 二等奖<br></li>
+						<!-- <li>2018/07&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">天津工业大学“创新杯”数学建模竞赛</font>&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;院校级 一等奖<br></li> -->
+						<li>2018/06&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">天津市大学生物理竞赛</font>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;天津市 特等奖<br></li>
+						<li>2018/05&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">Mathorcup全球大学生数学建模挑战赛</font>&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;国家级 特等奖<br></li>
+					    <li>2018/05&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">全国大学生英语竞赛</font>&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&nbsp;国家级 一等奖<br></li>
+					    <li>2018/04&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">美国大学生数学建模竞赛</font>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;国际级 二等奖 (H奖)<br></li>
+					    <li>2018/06&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">“泰迪杯”全国数据挖掘挑战赛</font>&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;国家级 三等奖<br></li>
+					    <li>2017/11&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">全国大学生数学建模竞赛</font>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;天津市 一等奖<br></li>
+					    <li>2017/11&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">全国大学生数学竞赛 (天津赛区)</font>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;天津市 三等奖<br></li>
+					    <!-- <li>2017/07&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">天津工业大学“求实杯”数学竞赛</font>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;院校级 二等奖<br></li>
+						<li>2017/07&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">天津工业大学“兴华杯”英语竞赛</font>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;院校级 二等奖<br></li> -->
+					    <li>2017/05&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">全国大学生英语竞赛</font>&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&nbsp;国家级 二等奖<br></li>
+
+					</ol>
+
+
+				<div id = "honorss"><h2>Honors</h2></div>
+					<ol>
+					<li>2023/06&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">天津大学优秀毕业生</font><br></li>
+					<li>2023/06&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">天津大学优秀硕士学位论文</font><br></li>
+					  <li>2022/10&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">研究生国家奖学金</font><br></li>
+					  <li>2022/10&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">天津大学优秀学生干部</font><br></li>
+					  <!-- <li>2022/09&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">天津大学研究生学业一等奖学金</font><br></li> -->
+					  <li>2021/10&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">中国石油奖学金</font><br></li>
+					  <li>2021/09&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">天津大学研究生学业一等奖学金</font><br></li>
+					  <li>2021/09&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">天津大学三好学生</font><br></li>
+					  <!-- <li>2021/09&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">天津大学研究生学业一等奖学金</font><br></li>
+					  <li>2020/09&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">天津大学研究生学业一等奖学金</font><br></li> -->
+					  <li>2020/06&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">天津工业大学优秀毕业生</font><br></li>
+					  <!-- <li>2020/06&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">天津工业大学先锋学子宣讲团成员 (全校22000多名学生 (本、硕、博)，仅50人)</font><br></li> -->
+					  <li>2020/05&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">入选 2020年本专科生国家奖学金获奖学生代表名录</font><br></li>
+					  <li>2019/12&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">天津市大学生创新创业奖学金</font><br></li>
+					  <!-- <li>2019/11&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">天津工业大学第二届十佳大学生 (全校22000多名学生 (本、硕、博)，仅有10人)</font><br></li> -->
+					  <li>2019/10&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">本科生国家奖学金</font><br></li>
+					  <!-- <li>2019/10&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">天津工业大学校长一等奖学金</font><br></li> -->
+					  <!-- <li>2019/10&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">天津工业大学三好学生</font><br></li> -->
+					  <li>2019/09&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">天津工业大学数学英才奖</font><br></li>
+					  <li>2018/12&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">天津工业大学三好学生</font><br></li>
+					  <!-- <li>2018/11&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">国家励志奖学金</font><br></li> -->
+					  <li>2018/10&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">天津工业大学校长一等奖学金</font><br></li>
+					  <!-- <li>2017/12&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">天津工业大学三好学生</font><br></li> -->
+					  <li>2017/11&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">国家励志奖学金</font><br></li>
+					  <!-- <li>2017/10&nbsp;&nbsp;|&nbsp;&nbsp;<font color="#bf6666">天津工业大学校长一等奖学金</font><br></li> -->
+					</ol>
+
+
+
+
+
+					<!-- <h2>博士研究生阶段</h2>
+						<p  style="margin-left:3em;" > <strong>-</strong>：-</p> -->
+
+<!--					<p  style="margin-left:3em;" > <strong>国家自然科学基金</strong>： &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;文献理解驱动的深度元学习研究&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|&nbsp;&emsp;&emsp;项目第三参与人</p>-->
+<!--                    <p  style="margin-left:3em;" > <strong>天津自然基金重点项目</strong>： &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;互联网大规模用户文本内容的挖掘&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|&nbsp;&emsp;&emsp;项目第三参与人</p>-->
+<!--                    <p  style="margin-left:3em;" > <strong>天津大学应用数学中心重点</strong>： &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;人工智能中的组合数学方法&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|&nbsp;&emsp;&emsp;项目参与人</p>-->
+<!--                    <p  style="margin-left:3em;" > <strong>企业横向项目</strong>： &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;工业电路图的智能识别&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|&nbsp;&emsp;&emsp;项目第二参与人</p>-->
+
+					<div id = "projectss"><h2>Projects</h2></div>
+						<p  style="margin-left:3em;" > <strong>国家自然科学基金项目</strong>： &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;文献理解驱动的深度元学习研究</p>
+						<p  style="margin-left:3em;" > <strong>天津自然基金重点项目</strong>： &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;互联网大规模用户文本内容的挖掘</p>
+						<p  style="margin-left:3em;" > <strong>天津大学应用数学中心重点项目</strong>： &emsp;&emsp;&emsp;人工智能中的组合数学方法</p>
+						<p  style="margin-left:3em;" > <strong>企业横向项目</strong>： &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;工业电路图的智能识别</p>
+
+					<!-- <h2>本科生阶段</h2> -->
+						<p  style="margin-left:3em;" > <strong>国家级大学生创新创业项目</strong>： &emsp;&emsp;&emsp;&emsp;&emsp;爱骑 app的开发和绿色自行车的推广 <font color="#bf6666">(主持)</font></p>
+						<p  style="margin-left:3em;" > <strong>校级师生合作科研项目</strong>： &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;非线性基因调控网络的可达集估计及其反馈控制研究</p>
+						<p  style="margin-left:3em;" > <strong>校级大学生创新创业项目</strong>： &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;基于互联网+的养老服务平台</p>
+
+
+
+
+
+
+
+				<div id = "acss"><h2>Academic Services</h2></div>
+					<p>
+					Reviewer: TIP, Journal of Supercomputing.<br>
+					</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<!-- <h2>Hobbies</h2>
+					<p>
+					<b><strong><font color="#ff6666">Hobbies: </font></strong></b>Reading, running, psychology<br>
+					</p>
+
+					<h2>Contact with me</h2>
+					<p><b><strong><font color="#ff6666">Email：</font></strong></b>xiaolingzhou@tju.edu.cn</p> -->
+
+				</div>
+				
+				
+			</div><!-- end of content-->
+		</div>
+		<!-- end of pagecell1-->
+	</body>
+</html>
